@@ -1,7 +1,7 @@
 public class cart {
     private Integer customerId  ;
     private Integer nproducts  ;
-    product [] products ;
+    private product [] products ;
     public cart(Integer customerId, Integer nproducts, product[] products) {
         this.customerId = Math.abs(customerId);
         this.nproducts = Math.abs(nproducts);
