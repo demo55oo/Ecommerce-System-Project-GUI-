@@ -1,8 +1,8 @@
 public class order {
     private  Integer customerId;
     private  Integer orderId ;
-    product[] products ;
-    float totalprice ;
+    private product [] products ;
+    private float totalprice ;
     public order(Integer customerId, Integer orderId, product[] products, float totalprice) {
         this.customerId = Math.abs(customerId);
         this.orderId = Math.abs(orderId);
